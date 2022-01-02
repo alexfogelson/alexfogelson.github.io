@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="container-fluid">
+    <div>
+        <h1> Alexander J. Fogelson </h1>
+        <center> <a href= "mailto:afogelso@andrew.cmu.edu"> <img src="front_shot.jpeg" alt="Alexander Fogelson Front Shot"> </a>  </center>
+
+    <nav class="navbar navbar-expand-sm bg-light sticky-top">
+        <ul class = "nav nav-pills nav-fill">
+            <li class="navbar-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="navbar-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+            <li class="navbar-item"><a class= "nav-link " href="writing.html">Writing</a></li>
+            <li class="navbar-item"><a class= "nav-link" href="Resume.pdf" download="Alexander Fogelson Resume" target = "_blank">Resume</a></li>
+            <li class="navbar-item"><a class= "nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+    <h1>Personal Projects</h1>
+    <center><p>Here you will find some of the side projects I've worked on from time to time...</p></center>
+
+    <div class="row">
+        <div class="col">
+            <h2> A Quirkey Python Script: Leveraging the iTunes Database</h2>
+            <p> 
+                Every so often, while perusing the internet for content offering me modicum amount of dopamine, I come across someone who has made a custom playlist, 
+                which when read as an acrostic (using the first word, rather than the first letter), will yield a particular message of sentence. On a whim, I decided to
+                see if I could automated this process, solely because it would be entertaining and acknowledging the near certain lack of utility.
+            </p>
+            <p>
+                Now unfortunately, in order to actually <em>create</em> the playlist, one needs a developer account to utilize the API from <em>music.apple.com</em>
+                But luckily, a free version is available, which allows one to search through all iTunes content, including movies, podcasts, apps, and books. About two hours later,
+                the tool was complete! 
+            </p>
+            <p>
+                Click <a href="src/simulator.zip" download>here</a> to download. Be sure to be running an updated version of python. To run, use the command <code>python3 playlist_maker.py "Sentence here"</code>.
+            </p>
+        </div>
+        <div class="col">
+            <img src="src/Playlist Maker.png" style="width: 80%;">
+        </div>
+    </div>
+
+    
+    <div class="row">
+    <div class="col">
+        <h2>Dimensionality and Gravity: Polishing an Endevour from 9th grade</h2>
+        <p>Years and years ago, as a freshman in highschool, I came accross a wonderful little bit of physics (admittedly a bit over my 
+            head at the time), about the inverse square law and it's relation to our 3-dimensional world. The article described the relation between gravitational
+            flux and the inverse square, which results as a consequence of surface area relating to the square of lengths.
+        </p>
+        <p> More specifically, it asserted that in a 2-dimensional world, the force of gravity would be simply proportional to the inverse of the distance,
+            and similarly in a 4-dimensional world, it would be proportional to the inverse cube of the distance (four dimensional spheres have cubic flux analogs).
+        </p>
+        <p> As an amateur Javascript learner, I decided my science fair project for the year would vary the number of dimensions, and note how Earth's orbit changed accordingly.
+            My finished product used an online Javascript IDE, had no visual components, nor easily adjustable settings. 
+        </p>
+        <p>
+            So recently, I decided to update the model from years ago, and include the components that are missing. To run the project below, 
+            you first need to install PyGames using <code>pip3 install pygames</code>. Then run the program with <code>python3 gravitySimulator.py</code>.
+            The code can be downloaded <a href="src/simulator.zip" download>here</a>.
+        </p>
+    </div>
+    <div class="col"> 
+        <img src="src/gravity simulator.gif" style="width: 80%;"> 
+    </div>
+
+</div>
+
+<script>
+    window.onload = function() {
+        for (elem of document.querySelectorAll(".FadeIn > *")) {elem.style.opacity = 1}
+    }
+</script>
+
+</body>
+
+</html>

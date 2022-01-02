@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60pt;
+    text-align: center;
+    color: black;
+}
+
+.FadeIn > * {
+    opacity: 0;
+    transition: 1s;
+}
+
+.contact-img {
+    width: 100%;
+}
