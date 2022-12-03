@@ -1832,7 +1832,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		height: calc(100px);
+		height: calc(75px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
@@ -1842,34 +1842,11 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		vertical-align:center;
 
 }
 
-.school {
-	-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: border-color 0.2s ease;
-		-webkit-transition: border-color 0.2s ease;
-		-ms-transition: border-color 0.2s ease;
-		transition: border-color 0.2s ease;
-		background-color: transparent;
-		color: #ffffff !important;
-		cursor: pointer;
-		display: inline-block;
-		height: calc(150px);
-		letter-spacing: 0.25em;
-		line-height: 4.75em;
-		outline: 0;
-		padding: 20px 20px;
-		position: relative;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
 
-}
 
 
 /* Button */
