@@ -1816,6 +1816,62 @@ input, select, textarea {
 			padding: 0;
 		}
 
+
+/* Company Image */
+
+.company {
+	-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: border-color 0.2s ease;
+		-webkit-transition: border-color 0.2s ease;
+		-ms-transition: border-color 0.2s ease;
+		transition: border-color 0.2s ease;
+		background-color: transparent;
+		color: #ffffff !important;
+		cursor: pointer;
+		display: inline-block;
+		height: calc(3.5em + 2px);
+		letter-spacing: 0.25em;
+		line-height: 4.75em;
+		outline: 0;
+		padding: 0 1.25em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+
+}
+
+.school {
+	-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: border-color 0.2s ease;
+		-webkit-transition: border-color 0.2s ease;
+		-ms-transition: border-color 0.2s ease;
+		transition: border-color 0.2s ease;
+		background-color: transparent;
+		color: #ffffff !important;
+		cursor: pointer;
+		display: inline-block;
+		height: calc(5.5em + 2px);
+		letter-spacing: 0.25em;
+		line-height: 4.75em;
+		outline: 0;
+		padding: 0 1.25em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+
+}
+
+
 /* Button */
 
 	input[type="submit"],
