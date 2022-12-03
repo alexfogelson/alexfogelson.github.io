@@ -3269,11 +3269,11 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #261c3e; 
 		}
 
 		.wrapper.style1 {
-			background-color: #210665;
+			background-color: #250558; /*COLOR (projects background) – original: #210665; */
 		}
 
 		.wrapper.style1-alt {
@@ -3289,7 +3289,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #383464;
+			background-color: #383464; /*COLOR (projects background) – original: #383464; */
 		}
 
 		.wrapper.style3-alt {
@@ -3403,7 +3403,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #0a0121; /*COLOR (generic page heading) – original: #5e42a6; */
 		cursor: default;
 		padding: 1.75em 2em;
 	}
