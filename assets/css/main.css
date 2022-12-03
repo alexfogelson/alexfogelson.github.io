@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #230664; /*COLOR (MAIN BODY) – original: #5e42a6; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2569,7 +2569,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #5e42a6; 
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -3273,11 +3273,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #250558; /*COLOR (projects background) – original: #210665; */
+			background-color: #250558; /*COLOR (connect with me) – original: #210665; */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #210665;
+			background-color: #250558; /*COLOR (copywrite at the bottom) – original: #210665; */
 		}
 
 		.wrapper.style2 {
