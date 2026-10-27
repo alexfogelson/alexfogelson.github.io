@@ -157,6 +157,7 @@ h1 {
   display: grid;
   grid-template-rows: subgrid;
   direction: ltr;
+  text-align: left;
   margin: 0 -100% 0 0;
 }
 
