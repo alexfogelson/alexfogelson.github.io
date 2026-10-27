@@ -8,12 +8,9 @@
 </head>
 <body>
   <header class="masthead">
-    <img src="BW Front Shot.jpeg" alt="Alex Fogelson" class="portrait">
     <div class="intro">
+      <img src="BW Front Shot.jpeg" alt="Alex Fogelson" class="portrait">
       <h1>Alex Fogelson</h1>
-      <p class="bio">
-        I'm a recovering software engineer turned researcher, working on how we measure progress in AI, algorithmic efficiency, and their downstream implications on scientific research. I'm currently at MIT FutureTech at MIT CSAIL.
-      </p>
       <nav class="social" aria-label="Social links">
         <a href="https://x.com/Alex_Fogelson" aria-label="Twitter / X" title="Twitter / X">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -32,69 +29,55 @@
           <span class="resume-label">Resume</span>
         </a> -->
       </nav>
+      <p class="bio">
+        I'm a recovering software engineer turned researcher, working on how we measure progress in AI, algorithmic efficiency, and their downstream implications on math and science. I'm currently at MIT CSAIL (<a href="https://futuretech.mit.edu">FutureTech</a> group).
+      </p>
     </div>
-  </header>
-
-  <main class="columns">
 
     <!-- ================================================================== -->
     <!-- ===                        EDUCATION                           === -->
     <!-- ================================================================== -->
-    <section class="col" aria-labelledby="education-heading">
-      <h2 id="education-heading">Education</h2>
+    <section class="education" aria-label="Education">
       <ol class="entries">
 
-        <!-- ─── M.S., Carnegie Mellon (2021 – 2022) ─── -->
+        <!-- ─── M.S. in Data Science, Carnegie Mellon University (2021 – 2022) ─── -->
         <li>
           <span class="year">2021 &ndash; 2022</span>
-          <span class="title"><strong>M.S. in Data Science (<href>MS-DAS Program</href>)</strong></span>
-          <span class="desc">
-            <strong>Carnegie Mellon University</strong><br>
-            Capstone project building product recommendation systems on top of knowledge graphs and semantic embeddings.
-          </span>
+          <span class="title">M.S. in Data Science</span>
+          <span class="institution">Carnegie Mellon University</span>
+          <span class="desc">MS-DAS Program</span>
         </li>
 
-        <!-- ─── B.S., Carnegie Mellon (2018 – 2021) ─── -->
+        <!-- ─── B.S. in Mathematics & Computer Science, Carnegie Mellon University (2018 – 2021) ─── -->
         <li>
           <span class="year">2018 &ndash; 2021</span>
-          <span class="title"><strong>B.S. in Mathematics (Major), Computer Science (Major), Chinese Studies (Minor)</strong></span>
-          <span class="desc">
-            <strong>Carnegie Mellon University</strong><br>
-            Completed in 3.5 years, concurrent with Master's program.
-          </span>
+          <span class="title">B.S. in Mathematics<br>Double Major in Computer Science<br>Minor in Chinese Studies</span>
+          <span class="institution">Carnegie Mellon University</span>
+          <span class="desc">Completed in 3.5 years, concurrent with Master's program.</span>
         </li>
 
-        <!-- ─── Wolfram Institute Summer Program, Student (June – July 2025) ─── -->
+        <!-- ─── Study Abroad, Shanghai International Studies University (June – July 2019) ─── -->
         <li>
-          <span class="year">June &ndash; July 2025</span>
-          <span class="title"><strong>Summer Research Program &ndash; Student</strong></span>
-          <span class="desc">
-            <strong>Wolfram Institute</strong>
-          </span>
-        </li>
-
-        <!-- ─── Shanghai International Studies University (June – July 2019) ─── -->
-        <li>
-          <span class="year">June 2019 &ndash; July 2019</span>
-          <span class="title"><strong>Study Abroad &ndash; Chinese Language and Culture</strong></span>
-          <span class="desc">
-            <strong>Shanghai International Studies University</strong>
-          </span>
+          <span class="year">Jun &ndash; Jul 2019</span>
+          <span class="title">Study Abroad &ndash; Chinese Language and Culture</span>
+          <span class="institution">Shanghai International Studies University</span>
         </li>
 
       </ol>
     </section>
+  </header>
 
-    <!-- ================================================================== -->
-    <!-- ===                          CAREER                            === -->
-    <!-- ================================================================== -->
-    <section class="col" aria-labelledby="career-heading">
-      <h2 id="career-heading">Career</h2>
-      <ol class="timeline">
+  <!-- ================================================================== -->
+  <!-- ===                          CAREER                            === -->
+  <!-- ================================================================== -->
+  <section class="career" aria-labelledby="career-heading">
+    <h2 id="career-heading">Career</h2>
+    <ol class="timeline">
 
-        <!-- ─── MIT FutureTech, Research Assistant (April 2024 – Present) ─── -->
-        <li>
-          <span class="year">April 2024 &ndash; Present</span>
+      <!-- ─── MIT FutureTech, Research Assistant (April 2024 – Present) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Apr 2024 &ndash; Present</span>
           <span class="title">MIT FutureTech</span>
           <span class="desc"><strong>Research Assistant</strong></span>
           <!--
@@ -104,11 +87,22 @@
             Researched scale-dependent algorithmic progress, showing that historical rates of efficiency improvements may stem from increasing returns to compute scaling rather than algorithmic innovation.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── MFS Investment Management, Software Engineer (February 2023 – March 2024) ─── -->
-        <li>
-          <span class="year">February 2023 &ndash; March 2024</span>
+      <!-- ─── Wolfram Institute, Summer Research Program (June – July 2025) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Jun &ndash; Jul 2025</span>
+          <span class="title">Wolfram Institute</span>
+          <span class="desc"><strong>Summer Research Program &ndash; Student</strong></span>
+        </div>
+      </li>
+
+      <!-- ─── MFS Investment Management, Software Engineer (February 2023 – March 2024) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Feb 2023 &ndash; Mar 2024</span>
           <span class="title">MFS Investment Management</span>
           <span class="desc"><strong>Software Engineer</strong></span>
           <!--
@@ -119,12 +113,14 @@
             Delivered four lectures as company-wide subject matter expert on <em>Snowflake</em> and <em>dbt</em> technologies within six months of arrival despite no prior experience.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── Meta/Facebook, Software Engineer (August – December 2022) ─── -->
-        <li>
-          <span class="year">August &ndash; December 2022</span>
-          <span class="title">Meta/Facebook</span>
+      <!-- ─── Meta/Facebook, Software Engineer (August – December 2022) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Aug &ndash; Dec 2022</span>
+          <span class="title">Meta</span>
           <span class="desc"><strong>Software Engineer</strong></span>
           <!--
           <span class="desc">
@@ -132,24 +128,29 @@
             Aided in large-scale refactoring of hundreds of files across dozens of domains.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── PNC Financial Services Group, M.S. Capstone Project (January – May 2022) ─── -->
-        <li>
-          <span class="year">January &ndash; May 2022</span>
+      <!-- ─── PNC Financial Services Group, M.S. Capstone Project (January – May 2022) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Jan &ndash; May 2022</span>
           <span class="title">PNC Financial Services Group</span>
           <span class="desc"><strong>Master's Capstone Project</strong></span>
           <!--
           <span class="desc">
             Designed and deployed TF&ndash;IDF&ndash; and BERT&ndash;based models for product recommendation pipeline.<br>
-            Advised industry professionals on defining new metrics for assessing similarities between target clientele for all products.
+            Advised industry professionals on defining new metrics for assessing similarities between target clientele for all products.<br>
+            Capstone project building product recommendation systems on top of knowledge graphs and semantic embeddings.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── Qualcomm, Linux Security Team Intern (June – August 2021) ─── -->
-        <li>
-          <span class="year">June &ndash; August 2021</span>
+      <!-- ─── Qualcomm, Linux Security Team Intern (June – August 2021) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Jun &ndash; Aug 2021</span>
           <span class="title">Qualcomm</span>
           <span class="desc"><strong>Linux Security Team, Software Engineering Intern</strong></span>
           <!--
@@ -159,23 +160,26 @@
             Additional work in path algorithms and DevOps to improve efficiency and usability of the tool.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── Carnegie Mellon University, Teaching Assistant (2020 – 2021) ─── -->
-        <li>
+      <!-- ─── Carnegie Mellon University, Teaching Assistant (2020 – 2021) ─── -->
+      <li>
+        <div class="event">
           <span class="year">2020 &ndash; 2021</span>
           <span class="title">Carnegie Mellon University</span>
           <span class="desc">
             <strong>Teaching Assistant</strong><br>
-            21-128 Mathematical Concepts and Proofs<br>
-            15-151 Mathematical Foundations of Computer Science<br>
-            21-241 Matrices and Linear Transformations
+            <a href="https://www.math.cmu.edu/~jmackey/151_128/welcome.html">21-128 / 15-151</a>,
+            <a href="https://coursecatalog.web.cmu.edu/search/?P=21-241">21-241</a>
           </span>
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── Audition Technology, Software Engineer Intern (June – August 2020) ─── -->
-        <li>
-          <span class="year">June &ndash; August 2020</span>
+      <!-- ─── Audition Technology, Software Engineer Intern (June – August 2020) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Jun &ndash; Aug 2020</span>
           <span class="title">Audition Technology</span>
           <span class="desc"><strong>Software Engineer, Intern</strong></span>
           <!--
@@ -183,103 +187,62 @@
             iOS Development Team.
           </span>
           -->
-        </li>
+        </div>
+      </li>
 
-        <!-- ─── Expii, Inc., Content Developer (November 2019 – April 2020) ─── -->
-        <li>
-          <span class="year">November 2019 &ndash; April 2020</span>
+      <!-- ─── Expii, Inc., Content Developer (November 2019 – April 2020) ─── -->
+      <li>
+        <div class="event">
+          <span class="year">Nov 2019 &ndash; Apr 2020</span>
           <span class="title">Expii, Inc.</span>
           <span class="desc"><strong>Content Developer, Intern</strong></span>
-        </li>
+        </div>
+      </li>
 
-      </ol>
-    </section>
+    </ol>
+  </section>
+
+  <main class="columns">
 
     <!-- ================================================================== -->
-    <!-- ===                       PUBLICATIONS                         === -->
+    <!-- ===                        PUBLICATIONS                        === -->
     <!-- ================================================================== -->
     <section class="col" aria-labelledby="pubs-heading">
       <h2 id="pubs-heading">Publications</h2>
-      <ol class="entries">
+      <ol class="entries works">
 
         <!-- ─── Science Is Falling Behind the Frontier (2026, NeurIPS AI4MetaScience) ─── -->
         <li>
-          <span class="year">2026</span>
-          <span class="title">
-            <a href="https://arxiv.org/abs/2511.21739">Science Is Falling Behind the Frontier: Foundation Model Adoption Across Half a Million Papers</a>
-            <span class="authors">Ana Trišović*, <span class="me">Alex Fogelson</span>*, Janakan Sivaloganathan, Neil Thompson</span>
-          </span>
-          <span class="desc">NeurIPS 2026 &mdash; Workshop: AI4MetaScience</span>
+          <span class="meta"><span class="tag">Paper</span><span class="year">2026</span></span>
+          <span class="title"><a href="https://arxiv.org/abs/2511.21739">Science Is Falling Behind the Frontier: Foundation Model Adoption Across Half a Million Papers</a></span>
+          <span class="venue">NeurIPS 2026 &mdash; Workshop: AI4MetaScience</span>
+          <span class="authors">Ana Trišović*, <span class="me">Alex Fogelson</span>*, Janakan Sivaloganathan, Neil Thompson</span>
         </li>
 
         <!-- ─── On the Origins of Algorithmic Progress in AI (2026, NeurIPS) ─── -->
         <li>
-          <span class="year">2026</span>
-          <span class="title">
-            <a href="https://arxiv.org/abs/2511.21622">On the Origins of Algorithmic Progress in AI</a>
-            <span class="authors">Hans Gundlach*, <span class="me">Alex Fogelson</span>, Jayson Lynch, Ana Trisovic, Jonathan Rosenfeld, Anmol Sandhu, Neil Thompson</span>
-          </span>
-          <span class="desc">NeurIPS 2026, Main Track</span>
-          <span class="desc">ICML TAIGR 2026 &mdash; Best Paper Award</span>
+          <span class="meta"><span class="tag">Paper</span><span class="year">2026</span></span>
+          <span class="title"><a href="https://arxiv.org/abs/2511.21622">On the Origins of Algorithmic Progress in AI</a></span>
+          <span class="venue">NeurIPS 2026 &mdash; Main Track</span>
+          <span class="venue">ICML TAIGR 2026 &mdash; <span class="award">Best Paper Award</span></span>
+          <span class="authors">Hans Gundlach*, <span class="me">Alex Fogelson</span>, Jayson Lynch, Ana Trisovic, Jonathan Rosenfeld, Anmol Sandhu, Neil Thompson</span>
         </li>
 
         <!-- ─── Two AI Metrics Diverged (April 2026, ICML TAIGR) ─── -->
         <li>
-          <span class="year">April 2026</span>
-          <span class="title">
-            <a href="https://arxiv.org/abs/2607.00913">Two AI Metrics Diverged: Will it make the difference?</a>
-            <span class="authors"><span class="me">Alex Fogelson</span>*, Zachary A. Brown*, Hans Gundlach, Jayson Lynch, Neil Thompson</span>
-          </span>
-          <span class="desc">ICML TAIGR 2026</span>
+          <span class="meta"><span class="tag">Paper</span><span class="year">Apr 2026</span></span>
+          <span class="title"><a href="https://arxiv.org/abs/2607.00913">Two AI Metrics Diverged: Will it make the difference?</a></span>
+          <span class="venue">ICML TAIGR 2026</span>
+          <span class="authors"><span class="me">Alex Fogelson</span>*, Zachary A. Brown*, Hans Gundlach, Jayson Lynch, Neil Thompson</span>
         </li>
 
         <!-- ─── Four Facts About U.S.-China Competition (December 2025, SSRN) ─── -->
         <li>
-          <span class="year">December 2025</span>
-          <span class="title">
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6028854">Four Facts About U.S. China Competition in China</a>
-          </span>
-        </li>
-
-        <!-- ─── The Computational Limits of Language Models (July 2025, Wolfram) ─── -->
-        <li>
-          <span class="year">July 2025</span>
-          <span class="title">
-            <a href="https://community.wolfram.com/groups/-/m/t/3499558">The computational limits of language models</a>
-            <span class="authors"><span class="me">Alex Fogelson</span></span>
-            <span class="desc">Wolfram Summer Research Program</span>
-          </span>
-        </li>
-
-      </ol>
-    </section>
-
-    <!-- ================================================================== -->
-    <!-- ===                           TALKS                            === -->
-    <!-- ================================================================== -->
-    <section class="col" aria-labelledby="talks-heading">
-      <h2 id="talks-heading">Talks</h2>
-      <ol class="entries">
-
-        <!-- ─── The Rapid Growth of Foundation Model Usage in Science (2026, Wharton) ─── -->
-        <li>
-          <span class="year">2026</span>
-          <span class="title">The Rapid Growth of Foundation Model Usage in Science</span>
-          <span class="desc">AI and the Future of Work Conference &mdash; Wharton School of Business</span>
-        </li>
-
-        <!-- ─── The Computational Limits of Language Models (2025, Wolfram Tech Conference) ─── -->
-        <li>
-          <span class="year">2025</span>
-          <span class="title">The Computational Limits of Language Models</span>
-          <span class="desc">Wolfram Technology Conference &mdash; Wolfram Research</span>
-        </li>
-
-        <!-- ─── The AI Risk Repository (2024, Elisava guest lecture) ─── -->
-        <li>
-          <span class="year">2024</span>
-          <span class="title">The AI Risk Repository</span>
-          <span class="desc">Guest lecture &mdash; Elisava School of Design and Engineering IAM</span>
+          <span class="meta"><span class="tag">Paper</span><span class="year">Dec 2025</span></span>
+          <span class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6028854">Four Facts About U.S. China Competition in China</a></span>
+          <span class="venue">SSRN &mdash; Pre-print</span>
+          <!-- TODO: add co-authors -->
+          <span class="authors"><span class="me">Alex Fogelson</span></span>
         </li>
 
       </ol>
@@ -294,14 +257,14 @@
 
         <!-- ─── AI Governance Under Exponential Compute Scaling (June 2026) ───
         <li>
-          <span class="year">June 2026</span>
+          <span class="year">Jun 2026</span>
           <span class="title">AI Governance Under Exponential Compute Scaling</span>
           <span class="desc">Under: Brookings Institution</span>
         </li> -->
 
         <!-- ─── How Much of AI's Mathematics Ability Is Selection Bias (October 2026) ─── -->
         <li>
-          <span class="year">October 2026</span>
+          <span class="year">Oct 2026</span>
           <span class="title">
             <a href="https://mitfuturetech.substack.com/p/how-much-of-ais-mathematics-ability">How Much of AI&rsquo;s Mathematics Ability Is Selection Bias</a>
           </span>
@@ -319,7 +282,7 @@
 
         <!-- ─── Can Academic Science Keep Up with the AI Frontier (March 2026) ─── -->
         <li>
-          <span class="year">March 2026</span>
+          <span class="year">Mar 2026</span>
           <span class="title">
             <a href="https://mitfuturetech.substack.com/p/can-academic-science-keep-up-with">Can Academic Science Keep Up with the AI Frontier</a>
           </span>
@@ -328,11 +291,51 @@
 
         <!-- ─── On the Origins of Algorithmic Progress (January 2026) ─── -->
         <li>
-          <span class="year">January 2026</span>
+          <span class="year">Jan 2026</span>
           <span class="title">
             <a href="https://mitfuturetech.substack.com/p/on-the-origins-of-algorithmic-progress">On the Origins of Algorithmic Progress</a>
           </span>
           <span class="desc">Under: <a href="https://substack.com/@mitfuturetech?utm_source=top_search">Mixture of Experts</a></span>
+        </li>
+
+        <!-- ─── The Computational Limits of Language Models (July 2025) ─── -->
+        <li>
+          <span class="year">Jul 2025</span>
+          <span class="title">
+            <a href="https://community.wolfram.com/groups/-/m/t/3499558">The Computational Limits of Language Models</a>
+          </span>
+          <span class="desc">Under: Wolfram Summer Research Program</span>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- ===                           TALKS                            === -->
+    <!-- ================================================================== -->
+    <section class="col" aria-labelledby="talks-heading">
+      <h2 id="talks-heading">Talks</h2>
+      <ol class="entries works">
+
+        <!-- ─── The Rapid Growth of Foundation Model Usage in Science (2026, Wharton) ─── -->
+        <li>
+          <span class="year">2026</span>
+          <span class="title">The Rapid Growth of Foundation Model Usage in Science</span>
+          <span class="venue">Wharton School of Business &mdash; <a href="https://ai.wharton.upenn.edu/ai-and-the-future-of-work-conference-2026/">AI and the Future of Work Conference</a></span>
+        </li>
+
+        <!-- ─── The Computational Limits of Language Models (2025, Wolfram Tech Conference) ─── -->
+        <li>
+          <span class="year">2025</span>
+          <span class="title">The Computational Limits of Language Models</span>
+          <span class="venue">Wolfram Research &mdash; <a href="https://www.wolfram.com/events/technology-conference/2025/">Wolfram Technology Conference</a></span>
+        </li>
+
+        <!-- ─── The AI Risk Repository (2024, Elisava guest lecture) ─── -->
+        <li>
+          <span class="year">2024</span>
+          <span class="title">The AI Risk Repository</span>
+          <span class="venue">Elisava School of Design and Engineering IAM &mdash; Guest Lecture</span>
         </li>
 
       </ol>
