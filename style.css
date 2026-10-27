@@ -132,13 +132,15 @@ h1 {
 }
 
 /* DOM stays newest-first like the other sections; rtl lays it out oldest-to-newest
-   left to right. Columns share the full width equally, so it never needs to scroll. */
+   left to right. Columns share the full width equally; once they'd drop below 6rem
+   it scrolls instead, and rtl starts that scroll at the right (newest) end. */
 .career .timeline {
   display: grid;
   grid-template-rows: auto auto;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-columns: minmax(6rem, 1fr);
   direction: rtl;
+  overflow-x: auto;
 }
 
 /* Empty rightmost column that the newest entry overhangs into */
@@ -155,7 +157,6 @@ h1 {
   display: grid;
   grid-template-rows: subgrid;
   direction: ltr;
-  position: relative;
   margin: 0 -100% 0 0;
 }
 
@@ -332,34 +333,6 @@ a {
 }
 
 a:hover { border-bottom-color: var(--ink); }
-
-@media (max-width: 1024px) {
-  .career .timeline {
-    display: block;
-    direction: ltr;
-    margin-left: 3px;
-    border-left: 1px solid var(--rule);
-  }
-  .career .timeline::before { display: none; }
-  .career .timeline li {
-    display: block;
-    margin: 0;
-    padding: 0 0 1.25rem 1.25rem;
-  }
-  .career .timeline li:last-child { padding-bottom: 0; }
-  .career .timeline li::after { display: none; }
-  .career .timeline li::before {
-    position: absolute;
-    top: 0.45rem;
-    left: -4px;
-    margin-top: 0;
-  }
-  .career .event {
-    margin: 0;
-    padding: 0;
-    border-left: none;
-  }
-}
 
 @media (max-width: 780px) {
   body { padding: 2.5rem 1.25rem 4rem; }
