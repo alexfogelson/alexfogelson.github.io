@@ -109,11 +109,6 @@ h1 {
 
 .bio a {
   color: var(--ink);
-  font-weight: 600;
-}
-
-.bio em a {
-  font-weight: 400;
 }
 
 .social {
