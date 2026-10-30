@@ -47,7 +47,7 @@ body {
 
 /* Grid puts the name and social icons stacked beside the portrait; bio spans the full width */
 .intro {
-  max-width: 22rem;
+  max-width: 28rem;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 1.25rem;
@@ -237,7 +237,8 @@ h1 {
 }
 
 .col h2,
-.career h2 {
+.career h2,
+.education h2 {
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
