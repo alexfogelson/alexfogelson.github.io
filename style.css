@@ -136,9 +136,28 @@ h1 {
   color: var(--ink);
 }
 
-.social .resume-label {
-  font-size: 0.85rem;
-  letter-spacing: 0.02em;
+/* Zero-height full-width item forces the resume button onto its own line below the icons */
+.social {
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+}
+
+.social::after {
+  content: "";
+  flex-basis: 100%;
+  order: 1;
+}
+
+/* Matches the .tag badges so the resume reads as a button, not another social icon */
+.social a.resume-button {
+  order: 2;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.5em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
 }
 
 .bio code {
